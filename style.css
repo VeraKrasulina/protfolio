@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #FFFFFF;
+}
+
+.center {
+    padding-left: calc(50% - 1080px / 2);
+    padding-right: calc(50% - 1080px / 2);
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.header_links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.h1 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 124px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    max-width: 613px;
+}
+
+.h2 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #000000;
+}
+
+.h3 {
+    color: #000;
+    font-size: 36px;
+    letter-spacing: 1.44px;
+    max-width: 270px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    mix-blend-mode: normal;
+    max-width: 520px;
+}
+
+.text_education {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    mix-blend-mode: normal;
+    max-width: 520px;
+}
+
+.contact_links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.header {
+    background-color: #000000;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    background-image: url(media/foto.jpg);
+    background-repeat: no-repeat;
+    background-position: right 15% bottom 45%;
+    padding-top: 131px;
+    padding-bottom: 131px;
+}
+
+.top_content {
+    display: flex;
+    align-items: left 15%;
+    flex-direction: column;
+}
+
+.about_me {
+    background-color: #F4F4F4;
+    padding-top: 146px;
+    padding-bottom: 146px;
+}
+
+.about_me_content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
+}
+
+.about_me_content_media {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img_container {
+    max-width: 82px;
+    max-height: 82px;
+}
+
+.portfolio {
+    padding-top: 151px;
+    padding-bottom: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.carousel-inner {
+    max-width: 894px;
+}
+
+.education {
+    background-color: #F4F4F4;
+    padding-top: 151px;
+    padding-bottom: 151px;
+}
+
+.img_container_gb {
+    max-width: 404px;
+    height: auto;
+}
+
+.education_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts {
+    padding-top: 151px;
+    padding-bottom: 151px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.footer {
+    background-color: #000000;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 300px);
+        padding-right: calc(50% - 300px);
+    }
+
+    .text {
+        max-width: 70%;
+    }
+
+    .header {
+        gap: 40px;
+    }
+
+    .top {
+        background-image: url(media/foto_small.jpg);
+        background-repeat: no-repeat;
+        background-position: right 10% bottom 16%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about_me_content {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .about_me_content_media {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about_me {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .img_container {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .portfolio {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .education {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        gap: 20px;
+    }
+
+    .img_container_gb {
+        max-width: 200px;
+    }
+
+    .portfolio_content {
+        gap: 8px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 140px);
+        padding-right: calc(50% - 140px);
+    }
+
+    .h1 {
+        font-size: 50px;
+        line-height: 60px;
+        max-width: 300px;
+    }
+
+    .h2 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    .h3 {
+        font-size: 20px;
+        letter-spacing: 0.8px;
+        max-width: 150px;
+    }
+
+    .header {
+        padding-bottom: 24px;
+        padding-top: 24px;
+        gap: 44px;
+    }
+
+    .header_links {
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .top {
+        background-image: url(media/back.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .top_content {
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about_me {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about_me_content_media {
+        align-items: center;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .about_me_content {
+        gap: 20px;
+    }
+
+    .img_container {
+        max-height: 26px;
+        max-width: 26px;
+    }
+
+    .text {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .education_content {
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .education {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .text_education {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .img_container_gb {
+        max-width: 100px;
+    }
+
+    .portfolio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .media_link {
+        max-width: 48px;
+        max-height: 48px;
+    }
+}
