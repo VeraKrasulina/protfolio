@@ -30,6 +30,12 @@ img {
     color: #FFFFFF;
 }
 
+.header_links:hover {
+    transition-duration: 100ms;
+    font-weight: 700;
+    transform: scale(1.2);
+}
+
 .h1 {
     font-family: 'Righteous';
     font-style: normal;
@@ -92,7 +98,7 @@ img {
     padding-bottom: 30px;
     padding-top: 30px;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -198,6 +204,16 @@ img {
     gap: 24px;
 }
 
+.media_img {
+    max-height: 32px;
+    max-width: auto;
+}
+
+.media_img:hover {
+    transform: scale(1.5);
+    transition-duration: 100ms;
+}
+
 @media (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 300px);
@@ -210,6 +226,16 @@ img {
 
     .header {
         gap: 40px;
+    }
+
+    .header_links {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .header_links:hover {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .top {
