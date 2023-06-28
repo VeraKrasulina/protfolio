@@ -32,7 +32,6 @@ img {
 
 .header_links:hover {
     transition-duration: 100ms;
-    font-weight: 700;
     transform: scale(1.2);
 }
 
@@ -149,6 +148,7 @@ img {
 }
 
 .portfolio {
+    padding-left: ;
     padding-top: 151px;
     padding-bottom: 151px;
     display: flex;
@@ -384,6 +384,8 @@ img {
     }
 
     .portfolio {
+        padding-left: 16px;
+        padding-right: 16px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
